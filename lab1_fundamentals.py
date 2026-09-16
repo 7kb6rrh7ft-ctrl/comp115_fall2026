@@ -111,6 +111,6 @@ remainder = dividend / divisor    # The remainder should be 1
 #---------------------------------------------------------
 # Submission (10 marks):
 # After you finish this lab, copy all your code (Ctrl/Cmd + A)
-# from this file and paste it into the Lab1 assignment submission area on e-Learn.
+# from this lab and paste it into the Lab1 assignment submission area on e-Learn.
 # Good job. Congratulations on finishing your lab1!
 #---------------------------------------------------------
