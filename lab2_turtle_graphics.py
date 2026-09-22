@@ -145,7 +145,7 @@ This example clearly demonstrates accessing list elements by loop variables.
 
 
 '''
-Exercise 2 - To draw a rainbow (like this one https://elearn.capu.ca/mod/assign/view.php?id=3237843):
+Exercise 2 - To draw a rainbow (like this one https://github.com/awang-capu/comp115_fall2026/blob/main/lab2_rainbow.png):
 You can set your own initial radius and increment value.
 
 Hint: You may need to use the functions below:
