@@ -3,7 +3,7 @@ Lab 2: Draw some basic shapes with Turtle Graphics, using loop algorithms.
 
 Complete exercise 1-2 (each values 50 points, 100 points in total).
 
-Author:  <your name>
+Author:  Anahita Jangodaz 100188036
 Due Date: This Thursday (Sept. 24) 5:00pm.
     
 """
@@ -73,7 +73,17 @@ num_sides = 6
 exterior_angle = 360 / num_sides
 '''
 
-# Code your exe 1 here
+# Code your exe 1 here  
+alex.clear()
+alex.up()
+alex.goto(0, 0)
+alex.down()
+
+num_sides = 6
+exterior_angle = 360 / num_sides
+for _ in range(num_sides):
+    alex.forward(100)
+    alex.left(exterior_angle)
 
 
 
@@ -154,6 +164,23 @@ alex.backward()
 '''
 
 # Code your exe 2 here
+alex.clear()
+alex.speed(5)
+alex.pensize(5)
+alex.up()
+
+rainbow_colors = ["violet", "indigo", "blue", "green", "yellow", "orange", "red"]
+radius = 30
+radius_increase = 20
+
+for color in rainbow_colors:
+    alex.color(color)
+    alex.goto(-radius, 0)
+    alex.setheading(90)
+    alex.down()
+    alex.circle(-radius, 180)
+    alex.up()
+    radius = radius + radius_increase
 
 
 
